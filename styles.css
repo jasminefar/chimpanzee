@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin: 0;
+}
+
+.chimpanzee {
+    position: relative;
+    width: 250px;
+    height: 450px;
+}
+
+.head {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #3B3B3B;
+    border-radius: 50%;
+    top: 50px;
+    left: 50px;
+}
+
+.ear {
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    background-color: #3B3B3B;
+    border-radius: 50%;
+}
+
+.ear.left {
+    left: -20px;
+    top: 30px;
+}
+
+.ear.right {
+    right: -20px;
+    top: 30px;
+}
+
+.eye {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+.eye.left {
+    left: 30px;
+    top: 50px;
+}
+
+.eye.right {
+    right: 30px;
+    top: 50px;
+}
+
+.pupil {
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 7.5px;
+    left: 7.5px;
+}
+
+.nose {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    top: 90px;
+    left: 65px;
+}
+
+.mouth {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 0 0 30px 30px;
+    top: 110px;
+    left: 45px;
+}
+
+.body {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background-color: #3B3B3B;
+    border-radius: 50% 50% 40% 40%;
+    top: 100px;
+    left: 25px;
+}
+
+.arm {
+    position: absolute;
+    width: 30px;
+    height: 200px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+
+.arm.left {
+    left: -15px;
+    top: 50px;
+}
+
+.arm.right {
+    right: -15px;
+    top: 50px;
+}
+
+.leg {
+    position: absolute;
+    width: 40px;
+    height: 150px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    bottom: -10px;
+}
+
+.leg.left {
+    left: 30px;
+}
+
+.leg.right {
+    right: 30px;
+}
